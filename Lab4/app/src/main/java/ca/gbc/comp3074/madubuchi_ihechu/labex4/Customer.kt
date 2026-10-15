@@ -1,4 +1,4 @@
-package ca.gbc.comp3074.madubuchi_ihechu.lab4.data
+package ca.gbc.comp3074.madubuchi_ihechu.labex4
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
@@ -7,7 +7,6 @@ import androidx.room.PrimaryKey
 data class Customer(
     @PrimaryKey(autoGenerate = true)
     val id: Int = 0,
-
     val name: String,
     val age: Int,
     val isActive: Boolean

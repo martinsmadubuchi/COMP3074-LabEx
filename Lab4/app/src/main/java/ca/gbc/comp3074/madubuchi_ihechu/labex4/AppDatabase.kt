@@ -1,4 +1,4 @@
-package ca.gbc.comp3074.madubuchi_ihechu.lab4.data
+package ca.gbc.comp3074.madubuchi_ihechu.labex4
 
 import android.content.Context
 import androidx.room.Database
@@ -12,7 +12,7 @@ import androidx.room.RoomDatabase
 )
 abstract class AppDatabase : RoomDatabase() {
 
-    abstract fun customerDao(): CustomerDao
+    abstract fun customerDao(): CustomerDAO
 
     companion object {
         @Volatile

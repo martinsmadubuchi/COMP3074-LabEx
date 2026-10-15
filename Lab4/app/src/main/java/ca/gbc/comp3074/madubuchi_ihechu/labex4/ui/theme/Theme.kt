@@ -1,4 +1,4 @@
-package ca.gbc.comp3074.madubuchi_ihechu.lab4.ui.theme
+package ca.gbc.comp3074.madubuchi_ihechu.labex4.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Lab4Theme(
+fun LabEx4Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

@@ -1,4 +1,4 @@
-package ca.gbc.comp3074.madubuchi_ihechu.lab4.ui.theme
+package ca.gbc.comp3074.madubuchi_ihechu.labex4.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
