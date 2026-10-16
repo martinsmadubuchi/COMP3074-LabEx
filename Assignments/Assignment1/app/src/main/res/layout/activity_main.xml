@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Calculator"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- INPUTS -->
+        <EditText
+            android:id="@+id/etHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Number of hours worked"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hourly rate (e.g. 20)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etTaxRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tax rate (e.g. 0.13 for 13%)"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Calculate" />
+
+        <!-- OUTPUTS -->
+        <TextView
+            android:id="@+id/tvPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Pay: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvOvertimePay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overtime Pay: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTotalPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Pay: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvTax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tax: "
+            android:textSize="18sp" />
+
+        <!-- NAVIGATION -->
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="About" />
+
+    </LinearLayout>
+</ScrollView>
